@@ -1,0 +1,30 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../config/ehcache.xsd">
+
+    <diskStore path="java.io.tmpdir"/>
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="300"
+            timeToLiveSeconds="300"
+            maxElementsOnDisk="10000000"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU">
+        <persistence strategy="localTempSwap"/>
+    </defaultCache>
+
+    <!--<cache name="RDsprintServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="RQksettlementServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CUsersServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CDepartmentServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="EbpCInvoicerelatedServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CSuppliersServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CCustomerServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="RSecuritydepositorderServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="RVipinventoryServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="RInventoryServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CGtbookinfoServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CGtbookmarcServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="SProgramServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="SStatusServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+    <!--<cache name="CStockServiceImpl" overflowToDisk="true" diskPersistent="true"  maxElementsInMemory="10000" maxElementsOnDisk="100000" />-->
+</ehcache>
